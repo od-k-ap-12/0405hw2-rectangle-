@@ -12,7 +12,8 @@ namespace _0405hw2
         }
         protected override void OnPaint(PaintEventArgs e)
         {
-
+            Graphics g = e.Graphics;
+            g.DrawRectangle(new Pen(Color.Coral,5), 10, 10, ClientSize.Width - 20, ClientSize.Height - 20);
             Rectangle Rectangle = new Rectangle(10, 10, ClientSize.Width - 20, ClientSize.Height - 20);
         }
 
