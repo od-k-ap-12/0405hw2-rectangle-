@@ -12,6 +12,7 @@ namespace _0405hw2
         }
         protected override void OnPaint(PaintEventArgs e)
         {
+
             Rectangle Rectangle = new Rectangle(10, 10, ClientSize.Width - 20, ClientSize.Height - 20);
         }
 
